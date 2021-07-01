@@ -1,6 +1,8 @@
 :root {
   --main-font: Karla, sans-serif;
   --font-size: 1.6rem;
+  --primary-color: #fff;
+  --secondary-color: rgb(1,64,98);
 }
 
 * {
@@ -11,6 +13,7 @@
 
 html {
   font-size: 62.5%;
-  background: rgb(1,64,98);
+  font-family: var(--main-font);
+  background: var(--secondary-color);
   /* background: linear-gradient(180deg, rgba(1,64,98,1) 0%, rgba(44,176,247,1) 100%); */
 }
