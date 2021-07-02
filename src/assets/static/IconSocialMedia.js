@@ -4,9 +4,9 @@ import '../styles/Icons.css';
 const IconSocialMedia = ({socialMedia, uri, color, form}) => {
 
     return (
-        <a alt ={socialMedia} onClick={() => window.open(`${uri}`)}>
+        <a alt ={`icon ${socialMedia}`} onClick={() => window.open(`${uri}`)}>
             <svg className="o-svg">
-                <g  transform="scale(1.3)">
+                <g  transform="scale(1.4)">
                     { socialMedia == 'Instagram' ?
                         <Fragment>
                             <path d="M17.581,5.467a.953.953,0,1,0,.952.952A.954.954,0,0,0,17.581,5.467Z" fill={color} ></path>

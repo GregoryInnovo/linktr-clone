@@ -1,6 +1,7 @@
 .o-btn-link {
     border: 0.2rem solid #fff;
     height: 5.6rem;
+    min-height: fit-content;
     padding: 1.6rem 2.0rem;
     margin-bottom: 1.6rem;
     cursor: pointer;

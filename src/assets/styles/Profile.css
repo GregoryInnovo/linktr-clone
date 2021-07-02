@@ -1,5 +1,12 @@
 .o-container {
-    width: 50%;
     margin: auto;
     height: 100vh;
+    width: 50%;
+    min-width: 676px;
+}
+
+@media screen and (max-width: 676px) {
+    .o-container {
+        min-width: 95%;
+    }
 }

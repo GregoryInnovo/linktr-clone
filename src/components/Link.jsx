@@ -5,7 +5,7 @@ const Link = ({ nameLink, uri }) => {
     return (
         <Fragment>
             <div className="o-btn-link">
-                <a onClick={() => window.open(`${uri}`)}>{nameLink}</a>
+                <span onClick={() => window.open(`${uri}`)}>{nameLink}</span>
             </div>
         </Fragment>
     );

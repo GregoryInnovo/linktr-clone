@@ -2,7 +2,7 @@
   --main-font: Karla, sans-serif;
   --font-size: 1.6rem;
   --primary-color: #fff;
-  --secondary-color: rgb(1,64,98);
+  --secondary-color: rgb(65,79,255,1);
 }
 
 * {
@@ -15,4 +15,6 @@ html {
   font-size: 62.5%;
   font-family: var(--main-font);
   background: linear-gradient(180deg, rgba(65,79,255,1) 0%, rgba(70,190,255,1) 60%, rgba(138,214,255,1) 100%);
+  background-repeat: no-repeat;
+  width: 100%;
 }

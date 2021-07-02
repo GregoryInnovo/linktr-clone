@@ -3,7 +3,7 @@
   font-size: var(--font-size);
   font-family: var(--main-font);
   color: var(--primary-color);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 a {
