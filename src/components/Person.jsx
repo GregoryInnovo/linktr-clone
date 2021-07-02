@@ -1,14 +1,14 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import gravatar from '../res/gravatar.js';
 import '../assets/styles/Person.css';
 
-const Person = () => {
+const Person = ({email, occupation}) => {
     return (
         <div className="o-profile-container">
             <picture>
-                <img className="o-img-profile" src={gravatar('gregoryinnovo@gmail.com')}/>
+                <img className="o-img-profile" src={gravatar(`${email}`)}/>
             </picture>
-            <p className="o-main-title">Front End Developer</p>
+            <p className="o-main-title">{occupation}</p>
         </div>
     );
 }

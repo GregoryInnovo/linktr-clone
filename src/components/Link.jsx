@@ -1,16 +1,14 @@
-import React, { Component, Fragment } from 'react';
-import '../assets/styles/Link.css';
+import React, { Fragment } from "react";
+import "../assets/styles/Link.css";
 
-export default  class Link extends Component {
+const Link = ({ nameLink, uri }) => {
+    return (
+        <Fragment>
+            <div className="o-btn-link">
+                <a onClick={() => window.open(`${uri}`)}>{nameLink}</a>
+            </div>
+        </Fragment>
+    );
+};
 
-    render () {
-        const { nameLink, uri } = this.props;
-        return (
-            <Fragment>
-                <div className="o-btn-link">
-                    <a onClick={()=> window.open(`${uri}`)}>{nameLink}</a>
-                </div>
-            </Fragment>
-        );
-    }
-}
+export default Link;
