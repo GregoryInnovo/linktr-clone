@@ -9,3 +9,11 @@
 a {
   text-decoration: none;
 }
+
+body {
+  padding: 1.6rem 0rem 3.2rem 0rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

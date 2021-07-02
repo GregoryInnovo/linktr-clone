@@ -1,4 +1,5 @@
-.o-link-container {
-    width: 80%;
+.o-container {
+    width: 50%;
     margin: auto;
+    height: 100vh;
 }

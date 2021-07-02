@@ -1,4 +1,4 @@
-const LinkContent = {
+const Content = {
     position_1 : {
         nameLink: "GitHub",
         uri: "https://github.com/GregoryInnovo",
@@ -13,4 +13,4 @@ const LinkContent = {
     },
 }
 
-export default LinkContent;
+export default Content;

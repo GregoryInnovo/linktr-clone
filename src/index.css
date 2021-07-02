@@ -14,6 +14,5 @@
 html {
   font-size: 62.5%;
   font-family: var(--main-font);
-  background: var(--secondary-color);
-  /* background: linear-gradient(180deg, rgba(1,64,98,1) 0%, rgba(44,176,247,1) 100%); */
+  background: linear-gradient(180deg, rgba(65,79,255,1) 0%, rgba(70,190,255,1) 60%, rgba(138,214,255,1) 100%);
 }
