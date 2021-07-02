@@ -2,6 +2,11 @@
     margin: 1.6rem 0rem 3.2rem 0rem;
 }
 
+.o-main-name {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
 .o-img-profile {
     width: 9.6rem;
     height: 9.6rem;

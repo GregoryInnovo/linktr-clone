@@ -1,5 +1,6 @@
 const Content = {
     user: {
+        userName: 'Gregson Murcia Castro',
         email: 'gregoryinnovo@gmail.com',
         occupation: 'Front End Developer',
     },

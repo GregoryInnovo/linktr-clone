@@ -10,7 +10,7 @@ const Profile = () => {
     return (
         <Fragment>  
             <div className="o-container">
-                <Person email={user.email} occupation={user.occupation} />
+                <Person email={user.email} occupation={user.occupation} userName={user.userName} />
                 <Link nameLink={position_1.nameLink} uri={position_1.uri} />
                 <Link nameLink={position_2.nameLink} uri={position_2.uri} />
                 <Link nameLink={position_3.nameLink} uri={position_3.uri} />
